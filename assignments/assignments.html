@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Video</title>
+    </head>
+    <body>
+        <script language="javascript">
+
+            function loadVideoWithId(id) {
+              const tvEmbedMode = "embed/" //"tv#/watch?v="
+              const url = `https://www.youtube.com/embed/${id}?fs=1&autoplay=1&loop=1` // 
+              const iframe = `<iframe src="${url}" width="1600" height="900" allowFullScreen="allowFullScreen" frameBorder="0" />`
+              document.write(iframe)
+            }
+            
+            loadVideoWithId('Z1hxvniJ18ss')
+            
+        </script>
+        <img src="interactive/img/sky_1.jpg" style="width:100%">
+        <img src="interactive/img/sky_2.jpg" style="width:100%">
+        <img src="interactive/img/sky_3.jpg" style="width:100%">
+    </body>
+</html>
